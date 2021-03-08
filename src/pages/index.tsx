@@ -1,15 +1,21 @@
 import React from 'react'
 import Head from 'next/head'
+import { Container, MainContainer, Primary } from '../styles/pages/Contact'
+import Information from '../components/contact/Information'
+import Form from '../components/contact/Form'
 
-export default function Home() {
+const Contact: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
-        <title>Homepage</title>
+        <title>Contact us</title>
       </Head>
-      <main>
-        <p>aaaa</p>
-      </main>
-    </div>
+      <MainContainer>
+        <Information />
+        <Form />
+      </MainContainer>
+    </Container>
   )
 }
+
+export default Contact
