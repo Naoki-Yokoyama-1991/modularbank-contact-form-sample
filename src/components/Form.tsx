@@ -1,6 +1,4 @@
 import React from 'react'
-// @Next.js Component
-import PageLink from 'next/link'
 import { useRouter } from 'next/router'
 // @Form-Model-Select &
 import { InputType, DataType } from '../util/type'
@@ -23,7 +21,6 @@ import {
   Title,
   Form,
   Error,
-  Lato,
 } from './styles'
 
 // @Form-Select-Style
@@ -106,9 +103,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
         </Columns>
         <Columns>
           <Column>
-            <Label htmlFor="firstname">
-              First name<Lato>*</Lato>
-            </Label>
+            <Label htmlFor="firstname">First name*</Label>
             <Input
               type="text"
               name="firstname"
@@ -138,9 +133,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
         </Columns>
         <Columns>
           <Column>
-            <Label htmlFor="email">
-              Email<Lato>*</Lato>
-            </Label>
+            <Label htmlFor="email">Email*</Label>
             <Input
               type="email"
               name="email"
@@ -174,9 +167,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
         <br />
         <Columns>
           <Column>
-            <Label htmlFor="company">
-              Company<Lato>*</Lato>
-            </Label>
+            <Label htmlFor="company">Company*</Label>
             <Input
               type="text"
               name="company"
@@ -190,9 +181,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
             {errors.company ? <Error>{errors.company.message}</Error> : null}
           </Column>
           <Column>
-            <Label htmlFor="industry">
-              Industry<Lato>*</Lato>
-            </Label>
+            <Label htmlFor="industry">Industry*</Label>
             <Controller
               defaultValue={props.data.industry[0]}
               styles={customStyles}
@@ -210,9 +199,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
         </Columns>
         <Columns>
           <Column>
-            <Label htmlFor="country">
-              Country<Lato>*</Lato>
-            </Label>
+            <Label htmlFor="country">Country*</Label>
             <Controller
               defaultValue={props.data.country[0]}
               styles={customStyles}
@@ -248,9 +235,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
         <br />
         <Columns>
           <Column>
-            <Label htmlFor="contents">
-              What would you like to talk about<Lato>?</Lato>
-            </Label>
+            <Label htmlFor="contents">What would you like to talk about?</Label>
             <Textarea
               name="contents"
               id="contents"
