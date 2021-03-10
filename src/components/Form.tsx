@@ -1,6 +1,6 @@
 import React from 'react'
 // @Next.js Component
-import PageLink from 'next/Link'
+import PageLink from 'next/link'
 import { useRouter } from 'next/router'
 // @Form-Model-Select &
 import { InputType, DataType } from '../util/type'
