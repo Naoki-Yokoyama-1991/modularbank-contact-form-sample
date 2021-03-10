@@ -38,6 +38,8 @@ Additional validation such as insufficient number of input characters is also im
 - Analyzer Package
   - [next/bundle-analyzer](https://github.com/vercel/next-plugins/tree/master/packages/next-bundle-analyzer) "10.0.8"
 - [Visual Studio Code](https://code.visualstudio.com/)
+- Font
+  - [Calibre](https://klim.co.nz/retail-fonts/calibre/)
 
 ## Install
 
