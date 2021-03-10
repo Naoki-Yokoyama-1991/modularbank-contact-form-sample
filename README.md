@@ -1,34 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# modularbank-contact-form-sample
 
-## Getting Started
+![](https://modularbank-contact-form-sample.vercel.app/)
 
-First, run the development server:
+A visually identical sample site on the "Modular Bank" contact page.
+
+## Description
+
+Nice to meet you, my name is Naoki. I made a sample site of the contact page of Modular Bank. Thank you for your confirmation. I tried to use the latest technology as much as possible.
+
+## Demo
+
+Desktop
+![](https://user-images.githubusercontent.com/76952055/110594221-34b76600-8185-11eb-954a-ffc91dea11d4.png)
+
+Smartphone
+![](https://user-images.githubusercontent.com/76952055/110595447-ae038880-8186-11eb-81db-8615f247542f.png)
+
+Error - Character count error
+![](https://user-images.githubusercontent.com/76952055/110595665-fa4ec880-8186-11eb-8745-2c2bf6a8bb1f.png)
+Additional validation such as insufficient number of input characters is also implemented.
+
+## Requirement
+
+- React
+- NEXT.JS
+- TypeScript
+- CSS Library(Styled-components)
+- Form Package(React-hook-form / React-select)
+- Analyzer Package(next/bundle-analyzer)
+- Visual Studio Code
+- Mac
+
+## Install
 
 ```bash
-npm run dev
-# or
-yarn dev
+// Homebrew Install
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+// Homebrew Update
+$ brew update
+
+// Nodejs Install
+$ brew instasll nodejs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+$ git clone https://github.com/Naoki-Yokoyama-1991/modularbank-contact-form-sample.git
+$ cd modularbank-contact-form-sample
+$ npm install
+$ npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technology choice
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**NEXT.JS**
 
-## Learn More
+- Uses SSG (Static Site Generation) that renders at build time for static page creation. This feature can reduce the download file size when loading each page.
+- Performance is better if you generate static resources only once at build time rather than generating static resources for each request
+- It is advantageous for SEO because individual HTML is generated for each URL.
+- Next.js puts a lot of effort into Zero Config. You don't have to touch webpack settings as much as possible.
 
-To learn more about Next.js, take a look at the following resources:
+**TypeScript**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Static type check. You can detect some type errors at compile time.
+- A given type declaration. Improvement of program code readability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Styled-components**
 
-## Deploy on Vercel
+- It is not necessary to import styles not used by taking styles of only rendered components.
+- Since Styled-components creates a single class name, it is not necessary to worry about duplicates and spermistics.
+- Styled-components can easily find the part to be changed because styling is associated with the component.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**React-hook-form**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Super lightweight package.
+- Accelerate mounting by holding a minimal re-rendering.
+- Because the form value is locally managed, it does not depend on the other package.
+
+**React-select**
+
+- Easily produce drop-down menu.
+- Customization can be easily done.
+
+**next/bundle-analyzer**
+
+- You can visually check the code in the bundle file.
+- Investigate the module bundled in the file and identify the cause of the giant of the JS file.
+
+## Bundle size analysis.
+
+- If you read the drop-down menu data at the timing of building a web application and perform rendering processing, you can realize a high-speed response to the request from the user to return the built HTML. You will be able to deliver content at high speed in the way that placing the HTML file cache to the CDN and returns the cache from her CDN near each user.
+- Use "Next / Bundle-Analyzer" to visually check the bundle file code and call only the required language of a huge file.
+
+## Author
+
+- Naoki
+- kionako96@gmail.com
