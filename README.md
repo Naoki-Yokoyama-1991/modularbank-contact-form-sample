@@ -1,12 +1,11 @@
 # modularbank-contact-form-sample
 
-[aaaaaaaaaaaaaaaa](https://modularbank-contact-form-sample.vercel.app/)
 
-A visually identical sample site on the "Modular Bank" contact page.
+A visually identical sample site on the ["Modular Bank" contact page](https://modularbank-contact-form-sample.vercel.app/).
 
 ## Description
 
-Nice to meet you, my name is Naoki. I made a sample site of the contact page of Modular Bank. Thank you for your confirmation. I tried to use the latest technology as much as possible.
+Nice to meet you, my name is Naoki. I made a sample site of the contact page of Modular Bank. Thank you for your confirmation. I tried to use the latest technology as much as possible. Sites are temporarily deployed to [Vercel](https://vercel.com/home). 
 
 ## Demo
 
@@ -35,7 +34,6 @@ Additional validation such as insufficient number of input characters is also im
 - Form Package(React-hook-form / React-select)
 - Analyzer Package(next/bundle-analyzer)
 - Visual Studio Code
-- Mac
 
 ## Install
 
