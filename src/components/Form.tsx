@@ -254,18 +254,17 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
               <InputBox
                 type="checkbox"
                 name="privacy"
-                id="privacy"
                 ref={register({ required: 'You must agree to privacy' })}
               />
               <Text>
                 By submitting this form I accept&ensp;
-                <PageLink href="https://www.modularbank.co/privacy-policy/">
-                  <Link>privacy policy and cookie policy</Link>
-                </PageLink>
+                <Link href="https://www.modularbank.co/privacy-policy/">
+                  privacy policy and cookie policy{' '}
+                </Link>
                 .
               </Text>
-              {errors.privacy ? <Error>{errors.privacy.message}</Error> : null}
             </LabelBox>
+            {errors.privacy ? <Error>{errors.privacy.message}</Error> : null}
 
             <LabelBox htmlFor="newsletter">
               <InputBox type="checkbox" name="newsletter" id="newsletter" />
