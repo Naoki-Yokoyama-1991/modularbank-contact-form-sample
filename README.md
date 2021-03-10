@@ -27,7 +27,7 @@ Additional validation such as insufficient number of input characters is also im
 
 ## Requirement
 
-- [React](https://reactjs.org/) "17.0.1",
+- [React](https://reactjs.org/) "17.0.1"
 - [NEXT.JS](https://nextjs.org/) "10.0.8"
 - [TypeScript](https://www.typescriptlang.org/) "4.2.3"
 - CSS Library
