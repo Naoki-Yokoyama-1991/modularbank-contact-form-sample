@@ -21,6 +21,7 @@ Smartphone
 
 Error - Character count error
 ![](https://user-images.githubusercontent.com/76952055/110612248-acdb5700-8198-11eb-9b2c-5efc7039e269.png)
+
 Additional validation such as insufficient number of input characters is also implemented.
 
 ## Requirement
