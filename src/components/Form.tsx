@@ -259,7 +259,7 @@ const ContactForm: React.FC<SelectData> = (props: SelectData) => {
               <Text>
                 By submitting this form I accept&ensp;
                 <Link href="https://www.modularbank.co/privacy-policy/">
-                  privacy policy and cookie policy{' '}
+                  privacy policy and cookie policy
                 </Link>
                 .
               </Text>
