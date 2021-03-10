@@ -1,6 +1,6 @@
 import React from 'react'
 // @Next.js Component
-import Link from 'next/Link'
+import Link from 'next/link'
 import { NextComponentType } from 'next'
 // @Styled-component
 import { Content, Mail, Column, InfoTitle, Sidebar } from './styles'
