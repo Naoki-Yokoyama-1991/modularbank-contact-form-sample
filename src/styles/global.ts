@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
+// @Initial-Style-Settings
 export default createGlobalStyle`
   * {
     margin:0;
     padding:0;
     box-sizing: border-box;
-
   }
 
   @font-face {
@@ -15,7 +15,12 @@ export default createGlobalStyle`
     font-display: swap;
   }
 
-
+  @font-face {
+    font-family: 'Calibre-regular';
+    src: url('/fonts/calibre-test-regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+  }
 
   body {
     background:${props => props.theme.colors.background};

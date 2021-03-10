@@ -1,0 +1,11 @@
+[
+  { "value": "Automotive", "label": "Automotive" },
+  { "value": "Banking", "label": "Banking" },
+  { "value": "Consulting", "label": "Consulting" },
+  { "value": "Finance", "label": "Finance" },
+  { "value": "Healthcare", "label": "Healthcare" },
+  { "value": "Media/PR", "label": "Media/PR" },
+  { "value": "Retail", "label": "Retail" },
+  { "value": "Telecommunication", "label": "Telecommunication" },
+  { "value": "Other", "label": "Other" }
+]
