@@ -112,6 +112,8 @@ export const Label = styled.label`
 `
 // @Form-Input
 export const Input = styled.input`
+  -webkit-appearance: none;
+  border-radius: 0;
   outline: none;
   font-size: 1rem;
   font-family: 'Calibre';
