@@ -17,9 +17,11 @@ Message Success
 ![](https://user-images.githubusercontent.com/76952055/110611878-4f470a80-8198-11eb-979f-b31747d0af26.png)
 
 Smartphone
+
 ![](https://user-images.githubusercontent.com/76952055/110612320-bebcfa00-8198-11eb-897c-0a88eca96f18.png)
 
 Error - Character count error
+
 ![](https://user-images.githubusercontent.com/76952055/110612248-acdb5700-8198-11eb-9b2c-5efc7039e269.png)
 
 Additional validation such as insufficient number of input characters is also implemented.
