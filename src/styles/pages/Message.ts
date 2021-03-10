@@ -55,10 +55,3 @@ export const Text = styled.p`
   display: block;
   letter-spacing: 0.5px;
 `
-// @Lato-Font
-export const Lato = styled.p`
-  font-family: 'Lato';
-  font-size: 28px;
-  font-weight: 400;
-  display: inline;
-`

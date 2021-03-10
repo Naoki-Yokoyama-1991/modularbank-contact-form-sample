@@ -1,9 +1,9 @@
 import React from 'react'
 // @Next.js Component
-import Link from 'next/link'
+import Link from 'next/Link'
 import { NextComponentType } from 'next'
 // @Styled-component
-import { Content, Mail, Column, InfoTitle, Sidebar, Lato } from './styles'
+import { Content, Mail, Column, InfoTitle, Sidebar } from './styles'
 
 // @Info-Component
 const Information: NextComponentType = () => {
@@ -13,27 +13,21 @@ const Information: NextComponentType = () => {
         <Sidebar>
           <InfoTitle>Contact us</InfoTitle>
         </Sidebar>
-        <p>
-          Media enquiries<Lato>:</Lato>
-        </p>
+        <p>Media enquiries:</p>
         <Link href="mailto:press@modularbank.co" passHref>
           <Mail>
             press@modularbank.co <br />
           </Mail>
         </Link>
         <br />
-        <p>
-          Career questions<Lato>:</Lato>
-        </p>
+        <p>Career questions:</p>
         <Link href="mailto:careers@modularbank.co" passHref>
           <Mail>
             careers@modularbank.co <br />
           </Mail>
         </Link>
         <br />
-        <p>
-          Our offices<Lato>:</Lato>
-        </p>
+        <p>Our offices:</p>
         <p>Tallinn, Estonia</p>
         <p>Vabaduse Workland</p>
         <p>Pärnu mnt 12, 10146</p>
