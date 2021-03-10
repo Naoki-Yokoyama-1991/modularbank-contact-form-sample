@@ -32,7 +32,7 @@ export const InfoTitle = styled.h1`
   @media (min-width: 769px) {
     display: none;
   }
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-family: 'Calibre-regular';
   font-size: 46px;
   font-weight: 600;
@@ -88,7 +88,7 @@ export const Title = styled.h1`
     display: none;
   }
   margin-bottom: 0.5rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-family: 'Calibre-regular';
   font-size: 46px;
   font-weight: 600;
@@ -195,4 +195,11 @@ export const FormButton = styled.button`
   margin-top: 0.1rem;
   padding: 18px 33px;
   font-size: 1.2rem;
+`
+// @Lato-Font
+export const Lato = styled.p`
+  font-family: 'Lato';
+  font-size: 1rem;
+  font-weight: 300;
+  display: inline;
 `
