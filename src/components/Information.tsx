@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import { NextComponentType } from 'next'
 // @Styled-component
-import { Content, Mail, Column, InfoTitle, Sidebar } from './styles'
+import { Content, Mail, Column, InfoTitle, Sidebar, Lato } from './styles'
 
 // @Info-Component
 const Information: NextComponentType = () => {
@@ -13,21 +13,27 @@ const Information: NextComponentType = () => {
         <Sidebar>
           <InfoTitle>Contact us</InfoTitle>
         </Sidebar>
-        <p>Media enquiries:</p>
+        <p>
+          Media enquiries<Lato>:</Lato>
+        </p>
         <Link href="mailto:press@modularbank.co" passHref>
           <Mail>
             press@modularbank.co <br />
           </Mail>
         </Link>
         <br />
-        <p>Career questions:</p>
+        <p>
+          Career questions<Lato>:</Lato>
+        </p>
         <Link href="mailto:careers@modularbank.co" passHref>
           <Mail>
             careers@modularbank.co <br />
           </Mail>
         </Link>
         <br />
-        <p>Our offices:</p>
+        <p>
+          Our offices<Lato>:</Lato>
+        </p>
         <p>Tallinn, Estonia</p>
         <p>Vabaduse Workland</p>
         <p>Pärnu mnt 12, 10146</p>
