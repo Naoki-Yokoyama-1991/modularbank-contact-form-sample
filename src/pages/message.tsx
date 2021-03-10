@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { NextPage } from 'next'
 // @Styled-component
-import { Main, Title, Text } from '../styles/pages/Message'
+import { Main, Title, Text, Lato } from '../styles/pages/Message'
 
 // @Message-Success-Page
 const Success: NextPage = () => {
@@ -22,7 +22,9 @@ const Success: NextPage = () => {
       </Head>
       <Main>
         <div>
-          <Title>All good!</Title>
+          <Title>
+            All good<Lato>!</Lato>
+          </Title>
           <Text>Thank you for your interest. We will contact you in 1-2 working days.</Text>
         </div>
       </Main>

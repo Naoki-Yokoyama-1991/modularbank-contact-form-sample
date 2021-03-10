@@ -203,3 +203,11 @@ export const Lato = styled.p`
   font-weight: 300;
   display: inline;
 `
+
+// @Lato-Font-2
+export const Lato2 = styled.p`
+  font-family: 'Lato';
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: inline;
+`
