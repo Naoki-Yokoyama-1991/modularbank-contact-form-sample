@@ -127,6 +127,8 @@ export const Input = styled.input`
 
 // @Forme-Txtares
 export const Textarea = styled.textarea`
+  -webkit-appearance: none;
+  border-radius: 0;
   outline: none;
   font-size: 1rem;
   font-family: 'Calibre';
