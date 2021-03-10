@@ -27,17 +27,17 @@ Additional validation such as insufficient number of input characters is also im
 
 ## Requirement
 
-- React "17.0.1",
-- NEXT.JS "10.0.8"
-- TypeScript "4.2.3"
+- [React](https://reactjs.org/) "17.0.1",
+- [NEXT.JS](https://nextjs.org/) "10.0.8"
+- [TypeScript](https://www.typescriptlang.org/) "4.2.3"
 - CSS Library
-  Styled-components "5.2.1"
+  - [Styled-components](https://styled-components.com/) "5.2.1"
 - Form Package
-  React-hook-form "6.15.4"
-  React-select "4.2.1"
+  - [React-hook-form](https://react-hook-form.com/) "6.15.4"
+  - [React-select](https://react-select.com/home) "4.2.1"
 - Analyzer Package
-  next/bundle-analyzer "10.0.8"
-- Visual Studio Code
+  - [next/bundle-analyzer](https://github.com/vercel/next-plugins/tree/master/packages/next-bundle-analyzer) "10.0.8"
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Install
 
@@ -61,7 +61,7 @@ $ npm install
 $ npm run dev
 ```
 
-## Technology choice
+## Technology-Choice
 
 **NEXT.JS**
 
@@ -97,7 +97,7 @@ $ npm run dev
 - You can visually check the code in the bundle file.
 - Investigate the module bundled in the file and identify the cause of the giant of the JS file.
 
-## Bundle size analysis.
+## Bundle-Size-Analysis.
 
 - If you read the drop-down menu data at the timing of building a web application and perform rendering processing, you can realize a high-speed response to the request from the user to return the built HTML. You will be able to deliver content at high speed in the way that placing the HTML file cache to the CDN and returns the cache from her CDN near each user.
 - Use "Next / Bundle-Analyzer" to visually check the bundle file code and call only the required language of a huge file.
