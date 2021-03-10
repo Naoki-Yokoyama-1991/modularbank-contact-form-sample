@@ -1,7 +1,7 @@
 # modularbank-contact-form-sample
 
 
-A visually identical sample site on the ["Modular Bank" contact page](https://modularbank-contact-form-sample.vercel.app/).
+A visually identical sample site on the ["Modular Bank" contact page](https://modularbank-contact-form-sample.vercel.app/)👈You can access the sample page..
 
 ## Description
 
@@ -27,12 +27,16 @@ Additional validation such as insufficient number of input characters is also im
 
 ## Requirement
 
-- React
-- NEXT.JS
-- TypeScript
-- CSS Library(Styled-components)
-- Form Package(React-hook-form / React-select)
-- Analyzer Package(next/bundle-analyzer)
+- React "17.0.1",
+- NEXT.JS "10.0.8"
+- TypeScript "4.2.3"
+- CSS Library
+  Styled-components "5.2.1"
+- Form Package
+  React-hook-form "6.15.4"
+  React-select "4.2.1"
+- Analyzer Package
+  next/bundle-analyzer "10.0.8"
 - Visual Studio Code
 
 ## Install
