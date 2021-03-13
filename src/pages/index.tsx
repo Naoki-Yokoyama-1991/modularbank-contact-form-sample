@@ -1,20 +1,20 @@
 import React from 'react'
-// @Next.js Component
+// Next.jsComponent
 import Head from 'next/head'
 import { NextPage, GetStaticProps } from 'next'
-// @NComponents-Information & Form
+// ComponentsInformation&Form
 import Information from '../components/Information'
 import Form from '../components/Form'
-// @Styled-component
+// Styled-component
 import { Container, Main } from '../styles/pages/Contact'
-// @Form-Model-Select
+// FormModelSelect
 import { DataType } from '../util/type'
-// @Form-Select-Data-Json
+// FormSelectDataJson
 import Industry from '../data/industry.json'
 import Operating from '../data/operating.json'
 import Country from '../data/country.json'
 
-// @Contact-Page
+// Contact-Page
 const ContactUs: NextPage<DataType> = (prop: DataType) => {
   return (
     <Container>
@@ -31,7 +31,7 @@ const ContactUs: NextPage<DataType> = (prop: DataType) => {
 
 export default ContactUs
 
-// @Next.js StaticSiteGeneration
+// Next.jsStaticSiteGeneration
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {

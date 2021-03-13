@@ -1,11 +1,12 @@
 import React from 'react'
+// Next.jsComponent
 import { useRouter } from 'next/router'
-// @Form-Model-Select &
+// FormModelSelect
 import { InputType, DataType } from '../util/type'
-// @React-Form-Tool
+// ReactFormTool
 import { useForm, Controller } from 'react-hook-form'
 import Select from 'react-select'
-// @Styled-component
+// Styled-component
 import {
   Label,
   Columns,
@@ -24,7 +25,7 @@ import {
   Lato,
 } from './styles'
 
-// @Form-Select-Style
+// FormSelectStyle
 const customStyles = {
   option: provided => ({
     ...provided,
@@ -63,7 +64,7 @@ const customStyles = {
     ...defaultStyles,
     color: '#333333',
   }),
-  // @removes the "stick"
+  // removes the "stick"
   indicatorSeparator: () => {},
 }
 
@@ -71,26 +72,26 @@ interface SelectData {
   data: DataType
 }
 
-// @Form-Component
+// FormComponent
 const ContactForm: React.FC<SelectData> = (props: SelectData) => {
-  // @Next-Router
+  // NextRouter
   const router = useRouter()
 
-  // @React-Select
+  // ReactSelect
   const { register, errors, handleSubmit, reset, control, formState, watch } = useForm<InputType>()
 
-  // @Watch-Get-Value
+  // WatchGetValue
   const Firstname = watch('firstname')
   const Email = watch('email')
   const Company = watch('company')
   const IndustrySelect = watch('industry')
   const Privacy = watch('privacy')
 
-  // @Click-Successful
+  // ClickSuccessful
   const onSubmit = (data: InputType) => {
-    // @Transition to message page.
+    // Transition to message page.
     router.push('/message')
-    // @Input reset
+    // InputReset
     reset()
   }
 

@@ -1,16 +1,16 @@
 import React from 'react'
-// @Next.js Component
+// Next.jsComponent
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { NextPage } from 'next'
-// @Styled-component
+// Styled-component
 import { Main, Title, Text, Lato } from '../styles/pages/Message'
 
-// @Message-Success-Page
+// MessageSuccessPage
 const Success: NextPage = () => {
-  // @Next-Router
+  // NextRouter
   const router = useRouter()
-  // @Transition to contact page after 3 seconds.
+  // Transition to contact page after 3 seconds.
   setTimeout(function () {
     router.push('/')
   }, 3000)

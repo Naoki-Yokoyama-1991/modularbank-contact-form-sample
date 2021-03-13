@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 /*---index-Style---*/
 
-// @Container
+// Container
 export const Container = styled.div`
   width: 100vw;
   height: 100vh;
 `
 
-// @Contact-Main
+// ContactMain
 export const Main = styled.main`
   @media (min-width: 769px) {
     display: flex;
