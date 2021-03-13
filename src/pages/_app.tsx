@@ -1,12 +1,12 @@
 import React from 'react'
-// @Next.js Component
+// Next.jsComponent
 import { AppProps } from 'next/app'
-// @Styled-component
+// Styled-component
 import { ThemeProvider } from 'styled-components'
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
 
-// @MyApp-Component
+// MyAppComponent
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>

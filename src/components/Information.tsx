@@ -1,11 +1,11 @@
 import React from 'react'
-// @Next.js Component
+// Next.jsComponent
 import Link from 'next/link'
 import { NextComponentType } from 'next'
-// @Styled-component
+// Styled-component
 import { Content, Mail, Column, InfoTitle, Sidebar, Lato2 } from './styles'
 
-// @Info-Component
+// Info-Component
 const Information: NextComponentType = () => {
   return (
     <Column>

@@ -1,6 +1,6 @@
 /*---Form-Type-Definition---*/
 
-// @Form-Input
+// FormInput
 export interface InputType {
   firstname: string
   lastname: string
@@ -15,7 +15,7 @@ export interface InputType {
   newsletter: boolean
 }
 
-// @Form-Select
+// FormSelect
 export interface DataType {
   country: {
     value: string

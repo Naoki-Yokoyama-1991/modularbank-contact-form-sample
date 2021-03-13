@@ -1,4 +1,4 @@
-// @Styled-component-ColorPaletteSettings
+// Styled-componentColorPaletteSettings
 const theme = {
   colors: {
     background: '#22304f',

@@ -1,6 +1,6 @@
 /* eslint @typescript-eslint/no-empty-interface: "off" */
 
-// @Styled-component-ColorPaletteLoading
+// Styled-componentColorPaletteLoading
 import 'styled-components'
 
 import theme from './theme'

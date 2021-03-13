@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 /*---Infomation-Style---*/
 
-// @Infomation-Content
+// InfomationContent
 export const Content = styled.div`
   @media (min-width: 769px) {
     margin-bottom: 4rem;
@@ -14,20 +14,20 @@ export const Content = styled.div`
   margin-right: -0.75rem;
   margin-top: -0.75rem;
 `
-// @Infomation-Sidebar
+// InfomationSidebar
 export const Sidebar = styled.div`
   margin-top: 32px;
   margin-bottom: 17px;
 `
 
-// @Infomation-Mail-a-Tag
+// InfomationMailATag
 export const Mail = styled.a`
   color: ${props => props.theme.colors.mail};
   text-decoration: none;
   cursor: pointer;
 `
 
-// @Infomation-Title
+// @InfomationTitle
 export const InfoTitle = styled.h1`
   @media (min-width: 769px) {
     display: none;
@@ -40,7 +40,7 @@ export const InfoTitle = styled.h1`
 
 /*---Form-Style---*/
 
-// @Form-Main & Button-active or passive
+// Form-Main&ButtonActiveOrPassive
 export const Main = styled.div`
   @media (min-width: 769px) {
     flex: none;
@@ -57,7 +57,7 @@ export const Main = styled.div`
   }
 `
 
-// @Columns
+// Columns
 export const Columns = styled.div`
   @media (min-width: 769px) {
     display: flex;
@@ -76,13 +76,13 @@ export const Columns = styled.div`
   margin-top: -0.75rem;
 `
 
-// @Column Form & Info "Common"
+// ColumnForm&Info"Common"
 export const Column = styled.div`
   padding: 0.75rem;
   width: 100%;
 `
 
-// @Form-Title
+// FormTitle
 export const Title = styled.h1`
   @media (max-width: 769px) {
     display: none;
@@ -94,23 +94,23 @@ export const Title = styled.h1`
   font-weight: 600;
 `
 
-// @Form-Title
+// FormTitle
 export const Error = styled.div`
   margin-top: 0.2rem;
   font-size: 1rem;
   color: ${props => props.theme.colors.mail};
 `
 
-// @Form-Style
+// FormStyle
 export const Form = styled.form``
 
-// @Form-Label
+// FormLabel
 export const Label = styled.label`
   font-size: 1rem;
   margin-bottom: 0.5em;
   display: block;
 `
-// @Form-Input
+// FormInput
 export const Input = styled.input`
   -webkit-appearance: none;
   border-radius: 0;
@@ -125,7 +125,7 @@ export const Input = styled.input`
   border: 1px solid transparent;
 `
 
-// @Forme-Txtares
+// FormeTxtares
 export const Textarea = styled.textarea`
   -webkit-appearance: none;
   border-radius: 0;
@@ -145,7 +145,7 @@ export const Textarea = styled.textarea`
   border: 1px solid transparent;
 `
 
-// @Label-Box
+// LabelBox
 export const LabelBox = styled.label`
   display: flex;
   cursor: pointer;
@@ -160,7 +160,7 @@ export const LabelBox = styled.label`
     }
   }
 `
-// @Input-Box
+// InputBox
 export const InputBox = styled.input`
   display: inline-block;
   width: 24px;
@@ -170,19 +170,19 @@ export const InputBox = styled.input`
   cursor: pointer;
 `
 
-// @a-Tag-Link
+// ATagLink
 export const Link = styled.a`
   color: ${props => props.theme.colors.mail};
   text-decoration: none;
   cursor: pointer;
 `
-// @Text-Box
+// TextBox
 export const Text = styled.span`
   display: inline-block;
   opacity: 0.8;
 `
 
-// @Form-Button
+// FormButton
 export const FormButton = styled.button`
   @media (max-width: 769px) {
     margin-bottom: 1.5rem;
@@ -196,7 +196,7 @@ export const FormButton = styled.button`
   padding: 18px 33px;
   font-size: 1.2rem;
 `
-// @Lato-Font
+// LatoFont
 export const Lato = styled.p`
   font-family: 'Lato';
   font-size: 1rem;
@@ -204,7 +204,7 @@ export const Lato = styled.p`
   display: inline;
 `
 
-// @Lato-Font-2
+// LatoFont2
 export const Lato2 = styled.p`
   font-family: 'Lato';
   font-size: 1.2rem;

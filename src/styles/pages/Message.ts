@@ -2,7 +2,7 @@ import styled, { keyframes } from 'styled-components'
 
 /*---message-Style---*/
 
-// Message-Main
+// MessageMain
 export const Main = styled.div`
   position: absolute;
   top: 0%;
@@ -16,7 +16,7 @@ export const Main = styled.div`
   height: 100%;
   padding: 20px;
 `
-// @Animation
+// Animation
 const TextAnimation = keyframes`
  0% {
    opacity: 0;
@@ -29,7 +29,7 @@ const TextAnimation = keyframes`
 
 `
 
-// @Message-Title
+// MessageTitle
 export const Title = styled.h2`
   animation-name: ${TextAnimation};
   animation-duration: 1.6s;
@@ -43,7 +43,7 @@ export const Title = styled.h2`
   letter-spacing: 1px;
 `
 
-// @Message-Text
+// MessageText
 export const Text = styled.p`
   animation-name: ${TextAnimation};
   animation-duration: 1.6s;
@@ -56,7 +56,7 @@ export const Text = styled.p`
   letter-spacing: 0.5px;
 `
 
-// @Lato-Font
+// LatoFont
 export const Lato = styled.p`
   font-family: 'Lato';
   font-size: 28px;
